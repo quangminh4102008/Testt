@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="456.0" prefWidth="465.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" />
+    <CheckBox mnemonicParsing="false" prefHeight="15.0" prefWidth="493.0" text="Hello!">
+      <font>
+         <Font size="27.0" />
+      </font></CheckBox>
+    <TextField />
+    <Label prefHeight="18.0" prefWidth="427.0" text="StudentId" />
+    <TextField />
+    <Label prefHeight="18.0" prefWidth="424.0" text="StudentName" />
+    <TextField />
+    <Label prefHeight="18.0" prefWidth="433.0" text="StudentPhone" />
+    <TextField />
+    <Label prefHeight="18.0" prefWidth="423.0" text="StudentEmail" />
+    <TextField />
+</VBox>
